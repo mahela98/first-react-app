@@ -1,18 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome';
-
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-
-     <Greet name = "clark"></Greet>
-     <Greet name = "mehzfg"></Greet>
-
-
-     
-     <Welcome></Welcome>
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
