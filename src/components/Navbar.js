@@ -13,3 +13,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+// Link tags prevent sending request to server and handles routes inside the browser 
