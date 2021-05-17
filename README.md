@@ -1,2 +1,7 @@
+### Install all dependancies
+ npm install
+### To run json server
  npx json-server --watch data/db.json --port 8000
- to run json server
+
+### Start react app
+    npm start
