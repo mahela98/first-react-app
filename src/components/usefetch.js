@@ -30,7 +30,7 @@ const useFetch = (url) => {
             setError(err.message);
           }
         });
-    }, 1000);
+    }, 100);
 
     // to stop fetching when go to a new route
     return () => {
